@@ -12,31 +12,31 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header container">
         <a class="logo" href="#">Golden</a>
 
         <nav class="headre-nav">
             <ul class="header-list">
                 <li class="headre-item">
-                    <a href="#">Home</a>
+                    <a href="#" class="header-item-link">Home</a>
                 </li>
                 <li class="headre-item">
-                    <a href="#">Services</a>
+                    <a href="#" class="header-item-link">Services</a>
                 </li>
                 <li class="headre-item">
-                    <a href="#">Portfolio</a>
+                    <a href="#" class="header-item-link">Portfolio</a>
                 </li>
                 <li class="headre-item">
-                    <a href="#">About</a>
+                    <a href="#" class="header-item-link">About</a>
                 </li>
                 <li class="headre-item">
-                    <a href="#">Contact</a>
+                    <a href="#" class="header-item-link">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <main class="main">
+    <main class="main container">
         <section class="info">
             <h1 class="info-title">Services</h1>
             <ul class="info-list"> 
@@ -51,17 +51,42 @@
                     <div>
                         <img src="img/laptop.png" alt="" class="icon">
                     </div>
-                    <h2 lass="list-title">Responsive Web</h2>
+                    <h2 class="list-title">Responsive Web</h2>
                     <p class="list-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in    tincidunt.</p>
                 </li>
                 <li class="info-item">
                     <div>
                          <img src="img/lock.png" alt="" class="icon">
                     </div>
-                    <h2 lass="list-title">Web Security</h2>
+                    <h2 class="list-title">Web Security</h2>
                     <p class="list-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in    tincidunt.</p>
                 </li>
             </ul>
+        </section>
+
+        <section class="form">
+            <h2 class="contact-title">contact us</h2>
+            <div>
+                <form action="">
+                    <label class="label-name">
+                        <input type="text" placeholder="your name *">
+                    </label>
+
+                    <label>
+                        <input type="email" placeholder="your e-mail *">
+                    </label>
+
+                    <label>
+                        <input type="text" placeholder="subject">
+                    </label>
+
+                    <label>
+                        <input type="text" placeholder="your message *">
+                    </label>
+
+                    <button class="form-btn">send message</button>
+                </form>
+            </div>
         </section>
     </main>
 </body>
